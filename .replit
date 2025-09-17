@@ -1,18 +1,19 @@
 entrypoint = "main.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
-
+(tv)
 [nix]
 channel = "stable-23_05"
-
+( Price: $325.0)
 [env]
 VIRTUAL_ENV = "$REPL_HOME/.pythonlibs"
-
+(Wholesale Price: $200.00)
 [unitTest]
 language = "python3"
-
+(Profit: $125.0)
 [gitHubImport]
 requiredFiles = [".replit", "replit.nix"]
-
+(Sale Price: $243.750)
 [deployment]
 run = ["python3", "main.py"]
 deploymentTarget = "cloudrun"
+9Sale Profit: $43.75)
